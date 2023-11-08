@@ -1,0 +1,25 @@
+header{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+nav{
+    background-color: aquamarine;
+    margin: 0;
+}
+
+aside{
+    background-color: brown;
+    margin: 0;
+}
+
+main{
+    background-color: chartreuse;
+    margin: 0;
+}
+
+footer{
+    background-color: yellow;
+    margin: 0;
+}

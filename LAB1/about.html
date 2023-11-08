@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <canvas id="myCanvas" width="101" height="51">
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "white";
+                    ctx.fillRect(0, 0, 101, 51);
+                    ctx.strokeStyle = "red";
+                    ctx.lineWidth = 10;
+                    ctx.moveTo(51, 0);
+                    ctx.lineTo(51, 51);
+                    ctx.moveTo(0, 26);
+                    ctx.lineTo(101, 26);
+                    ctx.stroke();
+                </script>
+            </canvas>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="about.html">About us <span class="sr-only">(current)</span> </a>
+            <a class="nav-item nav-link" href="news.html">News</a>
+            <a class="nav-item nav-link" href="products.html">Products</a>
+            <a class="nav-item nav-link" href="history.html">History</a>
+            <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+          </div>
+        </div>
+    </nav>
+
+    <div>
+        <p>
+            Welcome to Pao Family Tea House, the place where you can enjoy a cup of tea and a moment of relaxation.<br>
+            We are a family-owned and operated tea shop, established in 2023, with a passion for quality and variety. <br>
+            We offer a wide range of teas from around the world, from classic black and green teas to herbal and fruit infusions. <br>
+            Whether you prefer a strong brew or a delicate aroma, we have something for you. <br>
+        </p>
+    
+        <p>
+            At Pao Family Tea House, we believe that tea is more than just a drink. It is a culture, a tradition, and a way of life. <br>
+            That's why we source our teas from reputable and ethical suppliers, who respect the environment and the people who grow and harvest the tea leaves. <br>
+            We also care about our customers and their well-being, which is why we use only natural ingredients and avoid artificial flavors and preservatives. <br>
+        </p>
+    
+        <p>
+            Our tea shop is not only a place to buy tea, but also a place to experience tea. <br>
+            We invite you to join us for our daily tea tastings, where you can sample different teas and learn more about their history and benefits. <br>
+            You can also browse our selection of tea accessories, such as pots, cups, strainers, and infusers, to make your tea time more enjoyable. <br>
+            And if you need any advice or recommendations, our friendly and knowledgeable staff will be happy to assist you.<br>
+        </p>
+    
+        <p><font size="8"><strong>
+            We hope to see you soon at Pao Family Tea House, where every cup of tea is a celebration of life.<br>
+        </strong></font></p>
+    
+        <img src="img/aboutUs.jpg" height="450">
+    </div>
+    
+    <div>
+        <p>
+            You can learn more about us by using this link.
+            <a href="https://avatar.fandom.com/wiki/Pao_Family_Tea_House" target="_blank">Welcome!</a>
+        </p>
+        <p>
+            <a href="https://static.wikia.nocookie.net/avatar/images/6/6c/Pao_Family_Tea_House.png/revision/latest?cb=20130701090835" target="_blank">
+            <img src="https://static.wikia.nocookie.net/avatar/images/6/6c/Pao_Family_Tea_House.png/revision/latest?cb=20130701090835" height="250">
+            </a>
+        </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

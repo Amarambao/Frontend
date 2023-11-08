@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <canvas id="myCanvas" width="101" height="51">
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "white";
+                    ctx.fillRect(0, 0, 101, 51);
+                    ctx.strokeStyle = "red";
+                    ctx.lineWidth = 10;
+                    ctx.moveTo(51, 0);
+                    ctx.lineTo(51, 51);
+                    ctx.moveTo(0, 26);
+                    ctx.lineTo(101, 26);
+                    ctx.stroke();
+                </script>
+            </canvas>
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home </a>
+                <a class="nav-item nav-link" href="about.html">About us</a>
+                <a class="nav-item nav-link" href="news.html">News</a>
+                <a class="nav-item nav-link" href="products.html">Products <span class="sr-only">(current)</span> </a>
+                <a class="nav-item nav-link" href="history.html">History</a>
+                <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <aside class="col-lg-2 col-md-4 col-sm-12">
+            <p>Фильтры</p>
+            <form method="get" action="#" enctype="text/plain">
+                <div class="row">
+                    <main class="col-lg-12 col-md-12 col-sm-12">
+                        <input type="radio" name="promotionProduct"/>
+                        <label>Товар по акции</label> 
+                    </main>
+                </div>
+
+                <div class="row">
+                    <main class="col-lg-12 col-md-12 col-sm-12">
+                        <p>Цена за 100г. от</p>
+                        <input type="range" min="10" max="200" step="1" value="50"> 
+                    </main>
+                </div>
+                
+                <div class="row">
+                    <p>Тип чая</p>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="teaType" />
+                        <label for="teaType">Чёрный </label>
+                    </main>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="teaType" />
+                        <label for="teaType">Зелёный </label>
+                    </main>     
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="teaType" />
+                        <label for="teaType">Белый   </label>
+                    </main> 
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="teaType" />
+                        <label for="teaType">Улун    </label>
+                    </main> 
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="teaType" />
+                        <label for="teaType">Травяной</label>
+                    </main> 
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="teaType" />
+                        <label for="teaType">Красный </label>
+                    </main>    
+                </div>
+                <div class="row">
+                    <p>Температура заваривания</p>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="brewingTemp" />
+                        <label for="brewingTemp">60–70  °С</label>
+                    </main>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="brewingTemp" />
+                        <label for="brewingTemp">70–80  °С</label>
+                    </main>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="brewingTemp" />
+                        <label for="brewingTemp">80–90  °С</label>
+                    </main>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="brewingTemp" />
+                        <label for="brewingTemp">90–95  °С</label>
+                    </main>
+                    <main class="col-lg-6 col-md-6 col-sm-4">
+                        <input type = "checkbox" name="brewingTemp" />
+                        <label for="brewingTemp">95–100 °С</label>
+                    </main>
+                </div>
+
+                <input type="submit" value="Отправить" />
+            </form>
+        </aside>    
+        
+        <main class="col-lg-10 col-md-8 col-sm-12">
+            <div class="row">
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product-list">
+                        <img class="tea" src="img/product1.jpg" height="200">
+                        <h3>
+                            Цзыян Фуси Мао Цзянь
+                        </h3>
+                        <a href="tea1.html" class="button">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product-list">
+                        <img class="tea" src = "img/product2.jpg" height="200">
+                        <h3>
+                            Гречишный чай, Ку Цяо Май "AАА"
+                        </h3>
+                        <a href="tea2.html" class="button">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product-list">
+                        <img class="tea" src="img/product3.jpg" height="200">
+                        <h3>
+                            Е Шэн Мао Фэн "А"
+                        </h3>
+                        <a href="tea3.html" class="button">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

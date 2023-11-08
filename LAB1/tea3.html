@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Е Шэн Мао Фэн "А"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <canvas id="myCanvas" width="101" height="51">
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "white";
+                    ctx.fillRect(0, 0, 101, 51);
+                    ctx.strokeStyle = "red";
+                    ctx.lineWidth = 10;
+                    ctx.moveTo(51, 0);
+                    ctx.lineTo(51, 51);
+                    ctx.moveTo(0, 26);
+                    ctx.lineTo(101, 26);
+                    ctx.stroke();
+                </script>
+            </canvas>
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home </a>
+                <a class="nav-item nav-link" href="about.html">About us</a>
+                <a class="nav-item nav-link" href="news.html">News</a>
+                <a class="nav-item nav-link" href="products.html">Products <span class="sr-only">(current)</span> </a>
+                <a class="nav-item nav-link" href="history.html">History</a>
+                <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+            </div>
+        </div>
+    </nav>
+
+    <img src="img/product3.jpg" height="350">
+    
+    <h1>Е Шэн Мао Фэн "А"</h1>
+
+    <p>
+        В аромате и вкусе этого зеленого чая из провинции Хэннань, собранном весной 2022 года, вы найдёте свежесть сочных арбузных корочек, 
+        прогретость соленых фисташек в сочетании со сливочной сладостью заварного крема.
+    </p>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

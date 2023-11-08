@@ -1,0 +1,173 @@
+body{
+    height: auto;
+    background-color: rgba(41, 38, 197, 0.575);
+    margin: 0%;
+    padding: 0%;
+}
+.why{
+    height: auto;
+    background-color: cornsilk;
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+
+}
+.tea{
+    transition:linear 1s;
+}
+.tea:hover{
+    transform: scale(1.3);
+}
+
+h1{
+    height: auto;
+    background-color: cyan;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.answers{
+    height: auto;
+    background-color:thistle;
+    color: navy;
+    font-size: large;
+    margin: 0%;
+    padding: 0%;
+}
+
+p{
+    height: auto;
+    background-color: chartreuse;
+    color: fuchsia;
+    margin: 0%;
+    padding: 0%;
+}
+.redBlock{
+    height: auto;
+    background-color: red;
+    color: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+#sometimes{
+    background-color: coral;
+    color: chartreuse;
+    margin: 0%;
+    padding: 0%;
+}
+#answers{
+    height: auto;
+    background-color: bisque;
+    color: midnightblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul, ol{
+    height: auto;
+    background-color: bisque;
+    color: midnightblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+table, td, th{
+    height: auto;
+    background-color: bisque;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    height: auto;
+    background-color: rgb(219, 154, 176);
+    color: gold;
+    margin: 0%;
+    padding: 0%;
+}
+.historyDiv{
+    height: auto;
+    background-color: #2d2e20;
+    color: greenyellow;
+    margin: 0%;
+    padding: 0%;
+}
+.product-item {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+ }
+ .product-item:hover {
+    border-bottom: 2px solid #fc5a5a;
+ }
+ .product-item img {
+    display: block;
+    width: 100%;
+ }
+ .product-list {
+    background: #fafafa;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #fc5a5a;
+ }
+
+form{
+    margin: 0%;
+    padding: 0%;
+}
+
+label{
+    margin: 0%;
+    padding: 0%;
+}
+
+input{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    height: auto;
+    background-color: indianred;
+    color: azure;
+    margin: 0%;
+    padding: 0%;
+}
+
+canvas{
+    border: 5px;
+    border-style: groove;
+}
